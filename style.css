@@ -142,3 +142,5 @@ html::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
   background:radial-gradient(ellipse at 30% 20%,rgba(90,120,30,.10),transparent 60%),radial-gradient(ellipse at 80% 90%,rgba(60,90,20,.09),transparent 55%)}
 @keyframes grain{0%{transform:translate(0,0)}17%{transform:translate(-4%,3%)}33%{transform:translate(3%,-5%)}50%{transform:translate(-6%,-2%)}67%{transform:translate(5%,4%)}83%{transform:translate(-2%,6%)}100%{transform:translate(0,0)}}
 @media (prefers-reduced-motion:reduce){html::before{animation:none}}
+.xlink{position:fixed;top:14px;right:18px;z-index:50;font:600 13px/1 Menlo,monospace;color:#d4e157;background:rgba(6,14,6,.85);border:1px solid #d4e157;padding:8px 12px;border-radius:6px;text-decoration:none}
+.xlink:hover{background:#d4e157;color:#061006}
